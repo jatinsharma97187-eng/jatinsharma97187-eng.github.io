@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jatin Sharma — Electronics and Computer Engineering student, software development and DSA enthusiast." />
+  <title>Jatin Sharma — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#top">JS<span>.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="assets/Jatin_Sharma_Resume.pdf" target="_blank" rel="noopener">Resume <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> Electronics & Computer Engineering</div>
+        <h1>Building things<br><em>that make sense.</em></h1>
+        <p class="hero-text">I'm Jatin — a student developer who enjoys turning ideas into useful software, learning through projects, and getting better at the details that make code work well.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">See my work <span>↓</span></a>
+          <a class="button ghost" href="mailto:jatinsharma97187@gmail.com">Let's talk <span>↗</span></a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>9.00</strong><span>CGPA / 10</span></div>
+          <div><strong>2024–28</strong><span>TIET</span></div>
+          <div><strong>3+</strong><span>Projects</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="photo-frame">
+          <div class="photo-label">JATIN<br><span>SHARMA</span></div>
+          <img src="assets/profile.png" alt="Portrait of Jatin Sharma" />
+          <div class="photo-index">01 / 01</div>
+        </div>
+        <div class="floating-card card-one">C++ <span>01</span></div>
+        <div class="floating-card card-two">DSA <span>02</span></div>
+        <div class="orbit-text">CURIOUS · BUILD · LEARN · REPEAT ·</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Areas of interest">
+      <div class="marquee-track">
+        <span>SOFTWARE DEVELOPMENT</span><b>✦</b><span>DATA STRUCTURES</span><b>✦</b><span>WEB DEVELOPMENT</span><b>✦</b><span>PROBLEM SOLVING</span><b>✦</b><span>SOFTWARE DEVELOPMENT</span><b>✦</b><span>DATA STRUCTURES</span><b>✦</b><span>WEB DEVELOPMENT</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="section container about" id="about">
+      <div class="section-kicker">01 / ABOUT</div>
+      <div class="about-grid">
+        <h2>A developer<br>in progress.</h2>
+        <div class="about-copy">
+          <p class="large">I'm currently pursuing a B.E. in Electronics and Computer Engineering at Thapar Institute of Engineering and Technology.</p>
+          <p>My focus is increasingly on the software side — programming, DSA, web development and practical projects. I like learning by actually building something, breaking it, and figuring out why it broke.</p>
+          <p>Outside code, I've worked with the Thapar Movie Club and CineYouth, where coordinating people and events taught me a different kind of problem solving.</p>
+          <div class="signature">Jatin<span>—</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">02 / SELECTED WORK</div>
+          <p>Small projects, real practice.</p>
+        </div>
+        <div class="projects">
+          <article class="project featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-main">
+              <div class="project-top"><span>PYTHON · SQL · FILE MANAGEMENT</span><span>2024</span></div>
+              <h3>Hospital<br><em>Management System</em></h3>
+              <p>A CLI application for managing hospital records, with separate doctor and patient workflows and two persistence options.</p>
+              <div class="tags"><span>CRUD</span><span>SQL</span><span>Python</span><span>Data Storage</span></div>
+            </div>
+            <div class="project-arrow">↗</div>
+          </article>
+
+          <article class="project reveal delay-1">
+            <div class="project-number">02</div>
+            <div class="project-main">
+              <div class="project-top"><span>VERILOG · VIVADO · SPARTAN-7</span><span>2024</span></div>
+              <h3>Priority<br><em>Encoder</em></h3>
+              <p>An 8-to-8 active-low priority encoder designed, simulated and synthesized in Verilog, then validated on FPGA hardware.</p>
+              <div class="tags"><span>RTL</span><span>Simulation</span><span>FPGA</span></div>
+            </div>
+            <div class="project-arrow">↗</div>
+          </article>
+
+          <article class="project reveal delay-2">
+            <div class="project-number">03</div>
+            <div class="project-main">
+              <div class="project-top"><span>HTML · CSS · JAVASCRIPT</span><span>2026</span></div>
+              <h3>Personal<br><em>Portfolio</em></h3>
+              <p>A responsive portfolio built around clean typography, subtle motion and a visual-first layout.</p>
+              <div class="tags"><span>Responsive</span><span>UI</span><span>JavaScript</span></div>
+            </div>
+            <div class="project-arrow">↗</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills container" id="skills">
+      <div class="section-kicker">03 / TOOLKIT</div>
+      <div class="skills-grid">
+        <div class="skills-intro">
+          <h2>Things I<br><em>work with.</em></h2>
+          <p>Not a list of everything I've ever opened. Just the tools and concepts I’m actively building around.</p>
+        </div>
+        <div class="skill-list">
+          <div class="skill-row"><span>01</span><strong>Languages</strong><p>C · C++ · Python · JavaScript</p></div>
+          <div class="skill-row"><span>02</span><strong>Web</strong><p>HTML · CSS · JavaScript</p></div>
+          <div class="skill-row"><span>03</span><strong>Core</strong><p>DSA · OOP · Problem Solving</p></div>
+          <div class="skill-row"><span>04</span><strong>Data</strong><p>SQL · MySQL · File Management</p></div>
+          <div class="skill-row"><span>05</span><strong>Tools</strong><p>Git · VS Code · MATLAB · Canva · AutoCAD</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-kicker">04 / BEYOND CODE</div>
+        <div class="experience-grid">
+          <div>
+            <h2>Learning to<br><em>lead, too.</em></h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="year">2024 — Present</span>
+              <h3>Core Team Member · Thapar Movie Club</h3>
+              <p>Helped plan and execute club events, coordinating with a 20+ member team and supporting screenings and cultural activities attended by 500+ students.</p>
+            </article>
+            <article class="timeline-item">
+              <span class="year">2024 — 2025</span>
+              <h3>Event Organising Team · CineYouth</h3>
+              <p>Worked across logistics, audience engagement and on-ground execution, handling real-time issues during the event.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <div class="contact-box">
+        <div class="section-kicker">05 / CONTACT</div>
+        <h2>Have an idea?<br><em>Let's talk.</em></h2>
+        <a class="email-link" href="mailto:jatinsharma97187@gmail.com">jatinsharma97187@gmail.com <span>↗</span></a>
+        <div class="contact-bottom">
+          <span>Delhi, India</span>
+          <a href="tel:+918527040939">+91 8527040939</a>
+          <a href="https://github.com/jatinsharma97187-eng" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Jatin Sharma</span>
+    <span>Built with HTML · CSS · JS</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
